@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="k6k-7q-kJG" id="ZKT-xR-Ype"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Golist" id="jfV-4d-q7f"/>
+                    <navigationItem key="navigationItem" title="Golist" id="jfV-4d-q7f">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="aDV-e0-CSk">
+                            <color key="tintColor" red="0.21041350610000001" green="0.069875208389999999" blue="0.25006747540000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="BarButton:" destination="k6k-7q-kJG" id="GFn-6C-xrV"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g71-gl-WN1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
