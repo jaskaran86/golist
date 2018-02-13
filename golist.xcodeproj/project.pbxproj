@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B87EE9FC203268D9001B4680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87EE9FB203268D9001B4680 /* AppDelegate.swift */; };
-		B87EE9FE203268D9001B4680 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87EE9FD203268D9001B4680 /* ViewController.swift */; };
+		B87EE9FE203268D9001B4680 /* GoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87EE9FD203268D9001B4680 /* GoListViewController.swift */; };
 		B87EEA01203268D9001B4680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B87EE9FF203268D9001B4680 /* Main.storyboard */; };
 		B87EEA04203268D9001B4680 /* golist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B87EEA02203268D9001B4680 /* golist.xcdatamodeld */; };
 		B87EEA06203268D9001B4680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B87EEA05203268D9001B4680 /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		B87EE9F8203268D9001B4680 /* golist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = golist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87EE9FB203268D9001B4680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B87EE9FD203268D9001B4680 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B87EE9FD203268D9001B4680 /* GoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoListViewController.swift; sourceTree = "<group>"; };
 		B87EEA00203268D9001B4680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B87EEA03203268D9001B4680 /* golist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = golist.xcdatamodel; sourceTree = "<group>"; };
 		B87EEA05203268D9001B4680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				B87EE9FB203268D9001B4680 /* AppDelegate.swift */,
-				B87EE9FD203268D9001B4680 /* ViewController.swift */,
+				B87EE9FD203268D9001B4680 /* GoListViewController.swift */,
 				B87EE9FF203268D9001B4680 /* Main.storyboard */,
 				B87EEA05203268D9001B4680 /* Assets.xcassets */,
 				B87EEA07203268D9001B4680 /* LaunchScreen.storyboard */,
@@ -140,7 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B87EEA04203268D9001B4680 /* golist.xcdatamodeld in Sources */,
-				B87EE9FE203268D9001B4680 /* ViewController.swift in Sources */,
+				B87EE9FE203268D9001B4680 /* GoListViewController.swift in Sources */,
 				B87EE9FC203268D9001B4680 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
